@@ -2,6 +2,8 @@ service: lambda-test
 provider:
   name: aws
   runtime: nodejs12.x
+plugins:
+  - serverless-offline
 functions:
   hello:
     handler: handler.hello
@@ -9,3 +11,10 @@ functions:
       - http:
           path: /users/create
           method: get
+  getOrders:
+    handler: handler.getOrders
+    events:
+      - http:
+          path: /users/orders
+          method: get
+          cors: true  
