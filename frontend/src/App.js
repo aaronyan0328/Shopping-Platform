@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>My react / firebase project</h2>
+        <h2>Shopping platform</h2>
         <Signup />
       </header>
     </div>
