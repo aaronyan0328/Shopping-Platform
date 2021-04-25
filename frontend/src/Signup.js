@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import firebase from "firebase";
 import StyleFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-import Orders from './Orders';
+import Orders from "./Orders"
+
 var uiConfig = {
   signInFlow: "popup",
   signInOptions: [
@@ -38,7 +39,6 @@ const signOut = () => {
 
 const Signup = () => {
   const [user, setUser] = useState(null);
-
   useEffect(() => {
     // eslint-disable-next-line
     const user = firebase.auth().currentUser;
@@ -47,19 +47,15 @@ const Signup = () => {
     });
     return authObserver;
   });
-
   console.log("user", user);
-
   if (user) {
-    
     return (
       <>
-        <Orders />
         <p>
           Welcome, {user.displayName} <br />
           <small>{user.email}</small> <br />
           <button onClick={signOut}>Sign out</button>
-          
+          <Orders />
         </p>
       </>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
+// eslint-disable-next-line
 import Signup from './Signup';
-
 function App() {
   return (
     <div className="App">

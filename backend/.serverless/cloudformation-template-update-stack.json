@@ -167,7 +167,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/lambda-test/dev/1619299832226-2021-04-24T21:30:32.226Z/lambda-test.zip"
+          "S3Key": "serverless/lambda-test/dev/1619366117967-2021-04-25T15:55:17.967Z/lambda-test.zip"
         },
         "Handler": "handler.hello",
         "Runtime": "nodejs12.x",
@@ -192,7 +192,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/lambda-test/dev/1619299832226-2021-04-24T21:30:32.226Z/lambda-test.zip"
+          "S3Key": "serverless/lambda-test/dev/1619366117967-2021-04-25T15:55:17.967Z/lambda-test.zip"
         },
         "Handler": "handler.getOrders",
         "Runtime": "nodejs12.x",
@@ -210,24 +210,24 @@
         "GetOrdersLogGroup"
       ]
     },
-    "HelloLambdaVersionWqjd26OVC3TWSsMrUPAkM9deGm6gwf5wAPl2PnZK68": {
-      "Type": "AWS::Lambda::Version",
-      "DeletionPolicy": "Retain",
-      "Properties": {
-        "FunctionName": {
-          "Ref": "HelloLambdaFunction"
-        },
-        "CodeSha256": "g9XlotccI8x1Fgjram3Y9lEz8AP8Svy5RWPHbUgP7HA="
-      }
-    },
-    "GetOrdersLambdaVersionpDsqDEutWellFJzNFSAPxkPr4MT1MRP4Fa8QKcguNEU": {
+    "GetOrdersLambdaVersion7YyPCbN63jcDvSEpEVeQZhrfXVkx7NPe24umQ5qacI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetOrdersLambdaFunction"
         },
-        "CodeSha256": "g9XlotccI8x1Fgjram3Y9lEz8AP8Svy5RWPHbUgP7HA="
+        "CodeSha256": "0haIrOojuURz9OL+Us4vdRzB8PF7wGPNn9bDu+0N9iY="
+      }
+    },
+    "HelloLambdaVersionyDqiDjjc4TlQ42rH3FvakUoiQv4eqHvAn2Xvaq2tT4": {
+      "Type": "AWS::Lambda::Version",
+      "DeletionPolicy": "Retain",
+      "Properties": {
+        "FunctionName": {
+          "Ref": "HelloLambdaFunction"
+        },
+        "CodeSha256": "0haIrOojuURz9OL+Us4vdRzB8PF7wGPNn9bDu+0N9iY="
       }
     },
     "ApiGatewayRestApi": {
@@ -412,7 +412,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1619299821328": {
+    "ApiGatewayDeployment1619366109220": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -510,22 +510,22 @@
         "Name": "sls-lambda-test-dev-ServerlessDeploymentBucketName"
       }
     },
-    "HelloLambdaFunctionQualifiedArn": {
-      "Description": "Current Lambda function version",
-      "Value": {
-        "Ref": "HelloLambdaVersionWqjd26OVC3TWSsMrUPAkM9deGm6gwf5wAPl2PnZK68"
-      },
-      "Export": {
-        "Name": "sls-lambda-test-dev-HelloLambdaFunctionQualifiedArn"
-      }
-    },
     "GetOrdersLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetOrdersLambdaVersionpDsqDEutWellFJzNFSAPxkPr4MT1MRP4Fa8QKcguNEU"
+        "Ref": "GetOrdersLambdaVersion7YyPCbN63jcDvSEpEVeQZhrfXVkx7NPe24umQ5qacI"
       },
       "Export": {
         "Name": "sls-lambda-test-dev-GetOrdersLambdaFunctionQualifiedArn"
+      }
+    },
+    "HelloLambdaFunctionQualifiedArn": {
+      "Description": "Current Lambda function version",
+      "Value": {
+        "Ref": "HelloLambdaVersionyDqiDjjc4TlQ42rH3FvakUoiQv4eqHvAn2Xvaq2tT4"
+      },
+      "Export": {
+        "Name": "sls-lambda-test-dev-HelloLambdaFunctionQualifiedArn"
       }
     },
     "ServiceEndpoint": {
