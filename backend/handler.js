@@ -40,24 +40,23 @@ module.exports.hello = async (event) => {
 module.exports.getOrders = async (event) => {
   // const projectId = 'firebase-project-id'
   if (event.httpMethod === 'GET' && event.path === '/users/orders'){
-    // check the header named Authorization
-    // const token = event.headers['Authorization']
-    // // If no token is provided, or it is "", return a 401
-    // if (!token) {
-    //   return {
-    //     statusCode: 401
-    //   }
-    // }
-    // try {
-    //   // validate the token from the request
-    //   const decoded = await firebaseTokenVerifier.validate(token, projectId)
-    // } catch (err) {
-    //   // the token was invalid, 
-    //   console.error(err)
-    //   return {
-    //     statusCode: 401
-    //   }
-    // }
+    const token = event.headers['Authorization']
+    // If no token is provided, or it is "", return a 401
+    if (!token) {
+      return {
+        statusCode: 401
+      }
+    }
+    try {
+      // validate the token from the request
+      const decoded = await firebaseTokenVerifier.validate(token, projectId)
+    } catch (err) {
+      // the token was invalid, 
+      console.error(err)
+      return {
+        statusCode: 401
+      }
+    }
 
     return {
       statusCode: 200,

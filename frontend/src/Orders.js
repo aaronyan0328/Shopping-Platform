@@ -26,21 +26,18 @@
 // }
 // export default Orders;
 import React from 'react';
+// eslint-disable-next-line
 import firebase from "firebase";
 class Orders extends React.Component {
 	state = {
 		orders: null
 	  }
 	async componentDidMount() {
-		const idToken = await firebase.auth().currentuser?.getIdToken()
-		const response = await fetch('https://1vt4n5tmbb.execute-api.us-east-1.amazonaws.com/dev/users/orders', {
-			headers: {
-				'Authorization': idToken
-			}
-		})
-		if (response.status === 401) {
-			return console.log('unauthorized')
-		  }
+		// const idToken = await firebase.auth().currentuser?.getIdToken()
+		const response = await fetch('https://1vt4n5tmbb.execute-api.us-east-1.amazonaws.com/dev/users/orders')
+		// if (response.status === 401) {
+		// 	return console.log('unauthorized')
+		//   }
 		const orders = await response.json()
 		// save it to your components state so you can use it during render
 		this.setState({orders:orders})

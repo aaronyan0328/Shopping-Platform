@@ -1,0 +1,594 @@
+.content {
+    align-items: flex-start;
+    background-color: var(--whisper);
+    display: flex;
+    flex-direction: column;
+    min-height: 964px;
+    mix-blend-mode: normal;
+    width: 1180px;
+  }
+  .flex-row {
+    align-items: flex-start;
+    display: flex;
+    min-width: 1440px;
+  }
+  .flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 50px;
+    min-width: 1006px;
+  }
+  .flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 50px;
+    min-width: 1006px;
+    position: relative;
+  }
+  .frame {
+    align-items: flex-start;
+    background-color: var(--whisper);
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    mix-blend-mode: normal;
+    position: relative;
+    width: 1440px;
+  }
+  .overlap-group {
+    height: 964px;
+    position: relative;
+    width: 260px;
+  }
+  .overlap-group1 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    min-height: 884px;
+    padding: 38px 48px;
+    width: 1106px;
+  }
+  .rectangle- {
+    height: 276px;
+    mix-blend-mode: normal;
+    width: 483px;
+  }
+  .rectangle--1 {
+    height: 276px;
+    margin-left: 40px;
+    mix-blend-mode: normal;
+    width: 483px;
+  }
+  .surface-0-eleva-n-or-background {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    height: 884px;
+    margin-top: 30px;
+    min-width: 1116px;
+    mix-blend-mode: normal;
+  }
+  .text-1 {
+    align-self: flex-end;
+    color: var(--black);
+    font-family: var(--font-family-inter-regular);
+    font-size: var(--font-size-m);
+    letter-spacing: 0;
+    min-height: 44px;
+    min-width: 1008px;
+    mix-blend-mode: normal;
+    width: 1008px;
+  }
+  .welcome-to-google {
+    color: var(--royal-blue);
+    font-family: var(--font-family-inter-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-left: 82px;
+    min-height: 20px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .component-7 {
+    align-items: center;
+    display: flex;
+    min-width: 1408px;
+    mix-blend-mode: normal;
+  }
+  .get-connected {
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 116px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .logo {
+    background-color: var(--portage);
+    height: 60px;
+    mix-blend-mode: normal;
+    width: 260px;
+  }
+  .notification-bell {
+    height: 28px;
+    letter-spacing: 0;
+    margin-left: 435px;
+    margin-top: 12.0px;
+    min-height: 28px;
+    min-width: 23px;
+    mix-blend-mode: normal;
+    text-align: center;
+  }
+  .overlap-group4 {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    min-width: 180px;
+    padding: 0 31px;
+  }
+  .overlap-group5 {
+    align-items: center;
+    background-color: var(--royal-blue);
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    min-width: 180px;
+    padding: 0 65px;
+  }
+  .overlap-group6 {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    min-width: 180px;
+    padding: 0 54px;
+  }
+  .place {
+    color: var(--white);
+    font-family: var(--font-family-inter-medium);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 48px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .placeholder-avatar {
+    height: 32px;
+    margin-left: 22px;
+    margin-top: 12.0px;
+    mix-blend-mode: normal;
+    width: 32px;
+  }
+  .share-square-180-ro {
+    height: 28px;
+    letter-spacing: 0;
+    margin-left: 22px;
+    margin-top: 12.0px;
+    min-height: 28px;
+    min-width: 26px;
+    mix-blend-mode: normal;
+    text-align: center;
+  }
+  .your-role {
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 70px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .ellipse-4 {
+    height: 24px;
+    mix-blend-mode: normal;
+    width: 24px;
+  }
+  .name {
+    align-self: center;
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 1.0px;
+    margin-left: 8px;
+    min-height: 20px;
+    min-width: 38px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .side-nav-items-1.side-nav-items-4 {
+    top: 813px;
+  }
+  .side-nav-items-2.side-nav-items-4 {
+    top: 632px;
+  }
+  .side-nav-items-3.side-nav-items-4 {
+    top: 682px;
+  }
+  .side-nav-items-4 {
+    align-items: flex-start;
+    background-size: 100% 100%;
+    display: flex;
+    height: 49px;
+    left: 0;
+    min-width: 260px;
+    mix-blend-mode: normal;
+    padding: 12px 18px;
+    position: absolute;
+    top: 462px;
+  }
+  .side-nav-items-5.side-nav-items-4 {
+    top: 451px;
+  }
+  .side-nav-items.side-nav-items-4 {
+    top: 501px;
+  }
+  .a558b426cb89735-7bbed94cf0f09-1 {
+    height: 24px;
+    margin-left: 36px;
+    margin-top: 1.0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 24px;
+  }
+  .component-.component-1 {
+    left: unset;
+    margin-top: 1px;
+    position: relative;
+    top: unset;
+  }
+  .component-1 {
+    align-items: center;
+    background-size: 100% 100%;
+    display: flex;
+    height: 49px;
+    left: 0;
+    min-width: 260px;
+    mix-blend-mode: normal;
+    padding: 0 18px;
+    position: absolute;
+    top: 59px;
+  }
+  .component-2.component-1 {
+    left: unset;
+    position: relative;
+    top: unset;
+  }
+  .component-4.component-1 {
+    justify-content: flex-end;
+    left: unset;
+    margin-top: 1px;
+    padding: 0 13px;
+    position: relative;
+    top: unset;
+  }
+  .ellipse-4-1 {
+    height: 24px;
+    margin-bottom: 1.0px;
+    mix-blend-mode: normal;
+    width: 24px;
+  }
+  .figma {
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-left: 8px;
+    margin-top: 1.0px;
+    min-height: 20px;
+    min-width: 43px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .name-1 {
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 1.0px;
+    margin-left: 8px;
+    min-height: 20px;
+    min-width: 41px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .add {
+    align-items: center;
+    display: flex;
+    height: 24px;
+    left: 207px;
+    mix-blend-mode: normal;
+    padding: 0 5px;
+    position: absolute;
+    top: 761px;
+    width: 24px;
+  }
+  .cog {
+    color: var(--silver);
+    font-family: var(--font-family-font_awesome_5_free-solid);
+    font-size: var(--font-size-l);
+    height: 24px;
+    letter-spacing: 0;
+    margin-left: 11px;
+    min-height: 24px;
+    min-width: 26px;
+    mix-blend-mode: normal;
+    text-align: center;
+    width: 26px;
+  }
+  .component-8 {
+    align-items: flex-start;
+    display: flex;
+    height: 964px;
+    left: 0;
+    min-width: 260px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+  }
+  .connections {
+    height: 20px;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 20px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+  }
+  .flex-row-3 {
+    align-items: center;
+    display: flex;
+    min-width: 213px;
+  }
+  .group-11 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 249px;
+    position: absolute;
+    top: 80px;
+    width: 260px;
+  }
+  .group-12 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 18px;
+    min-height: 62px;
+    position: absolute;
+    top: 359px;
+    width: 217px;
+  }
+  .keyboardarrowright {
+    align-items: center;
+    display: flex;
+    height: 24px;
+    margin-left: 14px;
+    mix-blend-mode: normal;
+    padding: 0 8.0px;
+    width: 24px;
+  }
+  .overlap-group1-1 {
+    height: 964px;
+    position: relative;
+    width: 260px;
+  }
+  .overlap-group2 {
+    align-items: center;
+    background-size: 100% 100%;
+    display: flex;
+    height: 16px;
+    min-width: 16px;
+    padding: 0 7.7px;
+  }
+  .overlap-group2-1 {
+    align-items: center;
+    background-size: 100% 100%;
+    display: flex;
+    height: 12px;
+    min-width: 8px;
+    padding: 0 3.2px;
+  }
+  .overlap-group3 {
+    align-items: center;
+    background-size: 100% 100%;
+    display: flex;
+    height: 14px;
+    min-width: 14px;
+    padding: 0 6.8px;
+  }
+  .refresh {
+    align-items: center;
+    display: flex;
+    height: 24px;
+    left: 207px;
+    mix-blend-mode: normal;
+    padding: 0 4.0px;
+    position: absolute;
+    top: 580px;
+    width: 24px;
+  }
+  .rooms {
+    height: 20px;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 20px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 763px;
+    white-space: nowrap;
+    width: 55px;
+  }
+  .settings {
+    color: var(--silver);
+    font-family: var(--font-family-inter-regular);
+    font-size: var(--font-size-xs);
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 2px;
+    min-height: 20px;
+    min-width: 178px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+    width: 178px;
+  }
+  .side-nav-container {
+    align-items: flex-end;
+    background-color: var(--white);
+    display: flex;
+    height: 964px;
+    left: 0;
+    min-width: 260px;
+    padding: 48px 18px;
+    position: absolute;
+    top: 0;
+  }
+  .text-2 {
+    height: 20px;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 20px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 582px;
+    white-space: nowrap;
+    width: 176px;
+  }
+  .text-3 {
+    color: var(--black);
+    font-family: var(--font-family-inter-regular);
+    font-size: var(--font-size-xxs);
+    height: 30px;
+    letter-spacing: 0;
+    margin-left: 1px;
+    margin-top: 8px;
+    min-height: 30px;
+    mix-blend-mode: normal;
+    width: 210px;
+  }
+  .vector {
+    height: 1px;
+    width: 1px;
+  }
+  .your-team-company {
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 175px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  .group-1 {
+    align-items: center;
+    background-color: var(--portage);
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    min-width: 483px;
+    mix-blend-mode: normal;
+    padding: 12px 17.2px;
+    position: relative;
+  }
+  .group-4.group-1 {
+    background-color: var(--whisper);
+    margin-left: 40px;
+  }
+  .intern-game-day {
+    color: var(--whisper);
+    font-family: var(--font-family-inter-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    height: 22px;
+    letter-spacing: 0;
+    min-height: 22px;
+    min-width: 148px;
+    mix-blend-mode: normal;
+    width: 148px;
+  }
+  .keyboardarrowright-1 {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    height: 24px;
+    margin-left: 268px;
+    mix-blend-mode: normal;
+    padding: 0 7.9px;
+    width: 24px;
+  }
+  .keyboardarrowright-2.keyboardarrowright-1 {
+    margin-left: 104px;
+    position: relative;
+  }
+  .overlap-group2-2 {
+    align-items: center;
+    background-size: 100% 100%;
+    display: flex;
+    height: 12px;
+    min-width: 8px;
+    padding: 0 3.5px;
+  }
+  .vector-1 {
+    height: 1px;
+    width: 1px;
+  }
+  .group-2 {
+    align-items: center;
+    background-color: var(--whisper);
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    margin-left: 40px;
+    min-width: 483px;
+    mix-blend-mode: normal;
+    padding: 12px 17.2px;
+    position: relative;
+  }
+  .group-3.group-2 {
+    margin-left: unset;
+  }
+  .intern-game-day-i86 {
+    height: 22px;
+    letter-spacing: 0;
+    min-height: 22px;
+    min-width: 312px;
+    mix-blend-mode: normal;
+  }
+  
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+  * {
+    box-sizing: border-box;
+  }
+  .container-center-horizontal {
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .container-center-horizontal > * {
+    pointer-events: auto;
+    flex-shrink: 0;
+  }
+  .screen a {
+    text-decoration: none;
+    display: contents;
+  }
+  .valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
