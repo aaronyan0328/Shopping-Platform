@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import firebase from "firebase";
 import StyleFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-import Orders from "./Orders"
+import { BrowserRouter as Router} from "react-router-dom";
+import Mainpage from "./Mainpage";
 
 var uiConfig = {
   signInFlow: "popup",
@@ -48,18 +49,17 @@ const Signup = () => {
     return authObserver;
   });
   console.log("user", user);
+  
   if (user) {
-    return (
-      <>
-        <p>
-          Welcome, {user.displayName} <br />
-          <small>{user.email}</small> <br />
+    return(
+      <Router>
+        <div className = 'Mainpage'>
+          <Mainpage />
           <button onClick={signOut}>Sign out</button>
-          <Orders />
-        </p>
-      </>
-
-    );
+        </div>
+      </Router>
+      
+    ); 
   } else {
     return (
       <>
