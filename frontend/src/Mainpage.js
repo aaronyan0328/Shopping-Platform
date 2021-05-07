@@ -41,13 +41,6 @@ function Frame(props) {
               ellipse4={sideNavItemsProps.ellipse4}
               name={sideNavItemsProps.name}
             />
-            <Component1
-              component1={component1Props.component1}
-              ellipse4={component1Props.ellipse4}
-              name={component1Props.name}
-              a558B426Cb8973523F37Bbed94Cf0F091={component1Props.a558B426Cb8973523F37Bbed94Cf0F091}
-              figma={component1Props.figma}
-            />
             <Component8 {...component8Props} />
           </div>
           <div className="content">
@@ -351,13 +344,7 @@ const sideNavItemsData = {
     name: "Linda",
 };
 
-const component1Data = {
-    component1: "https://anima-uploads.s3.amazonaws.com/projects/60945387f79955c69361f394/releases/60946371e390cab39eca8378/img/rectangle@2x.png",
-    ellipse4: "https://anima-uploads.s3.amazonaws.com/projects/60945387f79955c69361f394/releases/60946371e390cab39eca8378/img/ellipse-4-1@2x.png",
-    name: "Adam",
-    a558B426Cb8973523F37Bbed94Cf0F091: "https://anima-uploads.s3.amazonaws.com/projects/60945387f79955c69361f394/releases/6094544246fdaea7feb7db1b/img/a558b426cb8973523f37bbed94cf0f09-1@2x.png",
-    figma: "Figma",
-};
+
 
 const sideNavItems2Data = {
     sideNavItems: "https://anima-uploads.s3.amazonaws.com/projects/60945387f79955c69361f394/releases/60946371e390cab39eca8378/img/rectangle@2x.png",
@@ -499,7 +486,6 @@ const frameData = {
     rectangle7: "https://anima-uploads.s3.amazonaws.com/projects/60945387f79955c69361f394/releases/60946371e390cab39eca8378/img/rectangle-7@2x.png",
     component7Props: component7Data,
     sideNavItemsProps: sideNavItemsData,
-    component1Props: component1Data,
     component8Props: component8Data,
     group1Props: group1Data,
     group2Props: group2Data,
